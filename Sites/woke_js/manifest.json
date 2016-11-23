@@ -1,0 +1,19 @@
+{
+"manifest_version": 2,
+    "name": "woke.js",
+    "description": "Stay woke and be vigilant.",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "insQ.min.js",
+                "bundle.js",
+                "woke.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
