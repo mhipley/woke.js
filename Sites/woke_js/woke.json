@@ -706,14 +706,14 @@
         "lastname": "",
         "string": "the racist cabal",
         "position": "replace",
-        "source": "https://www.wired.com/2016/10/alt-right-grew-obscure-racist-cabal/?mbid=social_twitter"
+        "source": "http://bit.ly/2ggGKP3"
       },
       {
         "firstname": "Alt-right",
         "lastname": "",
         "string": "neo-Nazi",
         "position": "replace",
-        "source": "http://www.rollingstone.com/politics/features/call-the-alt-right-movement-what-it-is-racist-as-hell-w436363"
+        "source": "http://bit.ly/2glxeYw"
       }
     ],
     "nationalists": [
@@ -722,7 +722,7 @@
         "lastname": "",
         "string": "neo-Nazis",
         "position": "replace",
-        "source": "http://www.rollingstone.com/politics/features/call-the-alt-right-movement-what-it-is-racist-as-hell-w436363"
+        "source": "http://bit.ly/2glxeYw"
       }
     ],
     "nationalist": [
@@ -731,7 +731,7 @@
         "lastname": "",
         "string": "neo-Nazi",
         "position": "replace",
-        "source": "http://www.rollingstone.com/politics/features/call-the-alt-right-movement-what-it-is-racist-as-hell-w436363"
+        "source": "http://bit.ly/2glxeYw"
       }
     ],
     "economic": [
