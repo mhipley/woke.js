@@ -1,1 +1,1 @@
-This is your Chrome extension which replaces a word or phrase with a different word or phrase. # woke.js
+This is a chrome extension that replaces the names of Trump & his surrogates with woke call outs. Don't normalize! Stay angry and active!
