@@ -50,6 +50,10 @@ function handleTextNode(textNode) {
         .replace(/Newt Gingrich /gi, replaceDillweed("Gingrich"))
         .replace(/Newt Gingrich, /gi, replaceDillweed("Gingrich"))
 
+        .replace(/Reince Priebus /gi, replaceDillweed("Priebus"))
+        .replace(/Reince Priebus, /gi, replaceDillweed("Priebus"))
+
+
         .replace(/Jeff Sessions /gi, replaceDillweed("Sessions"))
         .replace(/Jeff Sessions, /gi, replaceDillweed("Sessions")) 
 
@@ -151,6 +155,9 @@ function handleTextNode(textNode) {
       let finalHtml=newHtml  
         .replace(/Trump /gi, replaceDillweed("Trump"))
         .replace(/Trump, /gi, replaceDillweed("Trump"))
+
+        .replace(/Priebus /gi, replaceDillweed("Priebus"))
+        .replace(/Priebus, /gi, replaceDillweed("Priebus"))
       
         .replace(/Pence /gi, replaceDillweed("Pence"))
         .replace(/Pence, /gi, replaceDillweed("Pence"))
