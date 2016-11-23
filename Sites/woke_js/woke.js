@@ -8,10 +8,10 @@ var dillweeds = require('./woke.json');
 function replaceDillweed(dillweed) {
     var random = Math.floor(Math.random() * dillweeds[dillweed].length);
     if (dillweeds[dillweed][random].position == 'before') {
-        var dillweedString = '<span><a href="' + dillweeds[dillweed][random].source + '" style="display:inline;" target="_blank">' + dillweeds[dillweed][random].string + '</a></span> ' + dillweeds[dillweed][random].lastname + ' ';
+        var dillweedString = '<span><a href="' + dillweeds[dillweed][random].source + '" style="display:inline;" target="_blank">' + dillweeds[dillweed][random].string + '</a></span> ' + dillweeds[dillweed][random].lastname + '<span></span> ';
     }
     if (dillweeds[dillweed][random].position == 'after') {
-        var dillweedString = dillweeds[dillweed][random].lastname + ', ' + '<span><a href="' + dillweeds[dillweed][random].source + '" style="display:inline;" target="_blank">' + dillweeds[dillweed][random].string + '</a></span>, ';
+        var dillweedString = dillweeds[dillweed][random].lastname + '<span></span>, ' + '<span><a href="' + dillweeds[dillweed][random].source + '" style="display:inline;" target="_blank">' + dillweeds[dillweed][random].string + '</a></span>, ';
     }
     if (dillweeds[dillweed][random].position == 'replace') {
         var dillweedString = '<span><a href="' + dillweeds[dillweed][random].source + '" style="display:inline;" target="_blank">' + dillweeds[dillweed][random].string + '</a></span>';
@@ -146,23 +146,80 @@ function handleTextNode(textNode) {
         .replace(/Tom Price /gi, replaceDillweed("Price"))
         .replace(/Tom Price, /gi, replaceDillweed("Price"));                                              
 
-    // let finalHtml= er(
-    //   newHtml,
-    //   {
-    //     leftOutsideNot: 'Donald ',
-    //     leftOutside: '',
-    //     leftMaybe: '',
-    //     searchFor: 'Trump',
-    //     rightMaybe: '',
-    //     rightOutside: '',
-    //     rightOutsideNot: ''
-    //   },
-    //   replaceDillweed("Trump")
-    // );
+        // LOGIC FOR LAST NAMES ONLY
 
-    if( newHtml !== origText) {
+      let finalHtml=newHtml  
+        .replace(/Trump /gi, replaceDillweed("Trump"))
+        .replace(/Trump, /gi, replaceDillweed("Trump"))
+      
+        .replace(/Pence /gi, replaceDillweed("Pence"))
+        .replace(/Pence, /gi, replaceDillweed("Pence"))
+
+        .replace(/Bannon /gi, replaceDillweed("Bannon"))
+        .replace(/Bannon, /gi, replaceDillweed("Bannon"))
+
+        .replace(/Kushner /gi, replaceDillweed("Kushner"))
+        .replace(/Kushner, /gi, replaceDillweed("Kushner"))
+
+        .replace(/Giuliani /gi, replaceDillweed("Giuliani"))
+        .replace(/Giuliani, /gi, replaceDillweed("Giuliani"))
+
+        .replace(/Gingrich /gi, replaceDillweed("Gingrich"))
+        .replace(/Gingrich, /gi, replaceDillweed("Gingrich"))
+
+        .replace(/Sessions /gi, replaceDillweed("Sessions"))
+        .replace(/Sessions, /gi, replaceDillweed("Sessions")) 
+
+        .replace(/Conway /gi, replaceDillweed("Conway"))
+        .replace(/Conway, /gi, replaceDillweed("Conway"))
+
+        .replace(/Christie /gi, replaceDillweed("Christie"))
+        .replace(/Christie, /gi, replaceDillweed("Christie"))
+
+        .replace(/Palin /gi, replaceDillweed("Palin"))
+        .replace(/Palin, /gi, replaceDillweed("Palin"))
+
+        .replace(/Hensarling /gi, replaceDillweed("Hensarling"))
+        .replace(/Hensarling, /gi, replaceDillweed("Hensarling"))
+
+        .replace(/Mnunchin /gi, replaceDillweed("Mnunchin"))
+        .replace(/Mnunchin, /gi, replaceDillweed("Mnunchin"))
+
+        .replace(/Huckabee /gi, replaceDillweed("Huckabee"))
+        .replace(/Huckabee, /gi, replaceDillweed("Huckabee"))  
+
+        .replace(/Jindal /gi, replaceDillweed("Jindal"))
+        .replace(/Jindal, /gi, replaceDillweed("Jindal"))   
+
+        .replace(/Arpaio /gi, replaceDillweed("Arpaio"))
+        .replace(/Arpaio, /gi, replaceDillweed("Arpaio"))     
+
+        .replace(/Ebell /gi, replaceDillweed("Ebell"))
+        .replace(/Ebell, /gi, replaceDillweed("Ebell"))    
+
+        .replace(/Rhee /gi, replaceDillweed("Rhee"))
+        .replace(/Rhee, /gi, replaceDillweed("Rhee"))  
+
+        .replace(/Gaffney /gi, replaceDillweed("Gaffney"))
+        .replace(/Gaffney, /gi, replaceDillweed("Gaffney"))        
+
+        .replace(/Thiel /gi, replaceDillweed("Thiel"))
+        .replace(/Thiel, /gi, replaceDillweed("Thiel"))    
+
+        .replace(/Yiannopoulos /gi, replaceDillweed("Yiannopoulos"))
+        .replace(/Yiannopoulos, /gi, replaceDillweed("Yiannopoulos"))                 
+
+        .replace(/Pompeo /gi, replaceDillweed("Pompeo"))
+        .replace(/Pompeo, /gi, replaceDillweed("Pompeo"))  
+
+        .replace(/Korbach /gi, replaceDillweed("Korbach"))
+        .replace(/Korbach, /gi, replaceDillweed("Korbach"));  
+
+    // let finalHtml= newHtml
+
+    if( finalHtml !== origText) {
         let newSpan = document.createElement('span');
-        newSpan.innerHTML = newHtml;
+        newSpan.innerHTML = finalHtml;
         textNode.parentNode.replaceChild(newSpan,textNode);
     }
 }
