@@ -2977,7 +2977,7 @@ module.exports={
         "source": "http://www.independent.co.uk/news/world/americas/donald-trump-president-latest-cabinet-sessions-flynn-pompeo-racist-mike-a7426046.html"
       }
     ],
-    "Korbach": [
+    "Kobach": [
       {
         "firstname": "Kris",
         "lastname": "Kobach",
@@ -3214,8 +3214,8 @@ function handleTextNode(textNode) {
         .replace(/Mike Rogers /gi, replaceDillweed("Rogers"))
         .replace(/Mike Rogers, /gi, replaceDillweed("Rogers"))   
 
-        .replace(/Kris Korbach /gi, replaceDillweed("Korbach"))
-        .replace(/Kris Korbach, /gi, replaceDillweed("Korbach"))   
+        .replace(/Kris Kobach /gi, replaceDillweed("Kobach"))
+        .replace(/Kris Kobach, /gi, replaceDillweed("Kobach"))   
 
         .replace(/alt-right/gi, replaceDillweed("altright"))
         .replace(/Alt-right/gi, replaceDillweed("altright"))   
@@ -3303,8 +3303,8 @@ function handleTextNode(textNode) {
         .replace(/Pompeo /gi, replaceDillweed("Pompeo"))
         .replace(/Pompeo, /gi, replaceDillweed("Pompeo"))  
 
-        .replace(/Korbach /gi, replaceDillweed("Korbach"))
-        .replace(/Korbach, /gi, replaceDillweed("Korbach"));  
+        .replace(/Kobach /gi, replaceDillweed("Kobach"))
+        .replace(/Kobach, /gi, replaceDillweed("Kobach"));  
 
     // let finalHtml= newHtml
 

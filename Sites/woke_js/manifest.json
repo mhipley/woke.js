@@ -6,6 +6,8 @@
                "48": "icon-48.png",
               "128": "icon-128.png" },    
     "version": "1.0",
+    "short_name": "woke.js",
+    "homepage_url": "http://everyoneisugly.com/",
     "content_scripts": [
         {
             "matches": [
