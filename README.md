@@ -29,7 +29,7 @@ If you want to do something more useful than make a Chrome Extension, here are s
 
 [Between the World and Me](https://www.amazon.com/Between-World-Me-Ta-Nehisi-Coates-ebook/dp/B00SEFAIRI/ref=sr_1_1?s=books&ie=UTF8&qid=1479921027&sr=1-1&keywords=between+the+world+and+me)
 
-[How Does it Feel to Be a Problem?](https://www.amazon.com/dp/0143115413/)
+[How Does it Feel to Be a Problem?: Being Young and Arab in America](https://www.amazon.com/dp/0143115413/)
 
 [Denying the Holocaust: The Growing Assault on Truth and Memory](https://www.amazon.com/Denying-Holocaust-Growing-Assault-Memory/dp/0452272742)
 
