@@ -1,6 +1,4 @@
 
-var er = require('easy-replace');
-
 var elements = document.getElementsByTagName('*');
 
 var dillweeds = require('./woke.json');
@@ -245,18 +243,19 @@ function processDocument() {
     }
 }
 
-var insertedNodes = [];
-var observer = new WebKitMutationObserver(function(mutations) {
-    mutations.forEach(function(mutation) {
-        for(var i = 0; i < mutation.addedNodes.length; i++)
-            insertedNodes.push(mutation.addedNodes[i]);
-    })
-    console.log(insertedNodes);
-});
-observer.observe(document, {
-    childList: true
-});
-console.log(insertedNodes);
+//is this doing anything??
+// var insertedNodes = [];
+// var observer = new WebKitMutationObserver(function(mutations) {
+//     mutations.forEach(function(mutation) {
+//         for(var i = 0; i < mutation.addedNodes.length; i++)
+//             insertedNodes.push(mutation.addedNodes[i]);
+//     })
+//     console.log(insertedNodes);
+// });
+// observer.observe(document, {
+//     childList: true
+// });
+// console.log(insertedNodes);
 
 window.onload = function() {
     processDocument();

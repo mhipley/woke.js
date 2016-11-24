@@ -3,7 +3,7 @@ This is a chrome extension that replaces the names of Trump & his surrogates wit
 If you want to do something more useful than make a Chrome Extension, here are some links
 (and please send suggestions for additions to woke@everyoneisugly.com).
 
-#Things to do:
+##Things to do:
 
 [How White People Can Support People Of Color Now](https://www.buzzfeed.com/hannahgiorgis/how-white-people-can-support-people-of-color-right-now?utm_term=.xfZMkGdxdB#.tuk5y1bObQ)
 
@@ -21,7 +21,7 @@ If you want to do something more useful than make a Chrome Extension, here are s
 
 [How You Can Help The Standing Rock Sioux Fight The Dakota Access Pipeline](http://www.huffingtonpost.com/entry/help-standing-rock-sioux-dakota-access-pipeline_us_583480c9e4b000af95eca013?)
 
-#Things to read:
+##Things to read:
 
 [A Time for Treason: a reading list](http://thenewinquiry.com/features/a-time-for-treason/)
 
@@ -31,15 +31,19 @@ If you want to do something more useful than make a Chrome Extension, here are s
 
 [How Does it Feel to Be a Problem?](https://www.amazon.com/dp/0143115413/)
 
+[Denying the Holocaust: The Growing Assault on Truth and Memory](https://www.amazon.com/Denying-Holocaust-Growing-Assault-Memory/dp/0452272742)
+
+[Them: Adventures with Extremists](https://www.amazon.com/dp/B00570B692/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
+
 [Los Padrinos Juvenile Detention Center, Unit Y2 ](http://hyperallergic.com/338196/one-poem-by-christopher-soto/)
 
 [If You are Over Staying Woke](https://www.poetryfoundation.org/poems-and-poets/poems/detail/58028)
 
-#Things to watch:
+##Things to watch:
 
 [13th](https://www.netflix.com/title/80091741)
 
-#Things to listen to:
+##Things to listen to:
 
 [Call Your Girlfriend](http://www.callyourgirlfriend.com/)
 
@@ -47,7 +51,7 @@ If you want to do something more useful than make a Chrome Extension, here are s
 
 [Code Switch](http://www.npr.org/sections/codeswitch/)
 
-#Digital Privacy & Security:
+##Digital Privacy & Security:
 
 [President Obama Will Soon Turn Over the Keys to the Surveillance State to President-Elect Trump](https://www.aclu.org/blog/speak-freely/president-obama-will-soon-turn-over-keys-surveillance-state-president-elect-trump)
 
@@ -60,3 +64,5 @@ If you want to do something more useful than make a Chrome Extension, here are s
 [Install Signal (iOS)](https://itunes.apple.com/us/app/signal-private-messenger/id874139669?mt=8&ign-mpt=uo%3D4)
 
 [Install Signal (Android](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms&hl=en)
+
+
