@@ -5,7 +5,7 @@
     "icons": { "16": "icon-16.png",
                "48": "icon-48.png",
               "128": "icon-128.png" },    
-    "version": "1.0",
+    "version": "1.0.1",
     "short_name": "woke.js",
     "homepage_url": "http://everyoneisugly.com/",
     "content_scripts": [
