@@ -1,6 +1,9 @@
-This is a chrome extension that replaces the names of Trump & his surrogates with woke call outs. Don't normalize! Stay angry and active!
+#INSTALLATION NOTES FOR REVIEWER:
+This add-on requires no special processes or user validation.
 
-If you want to do something more useful than make a Chrome Extension, here are some links
+This is a Firefox extension that replaces the names of Trump & his surrogates with woke call outs. Don't normalize! Stay angry and active!
+
+If you want to do something more useful than make a Firefox extension, here are some links
 (and please send suggestions for additions to woke@everyoneisugly.com).
 
 ##Things to do:
